@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(fondoxd.borroso.jpg);
+}
+.form-register {
+	width: 400px;
+	background: #34495e;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	font-family: 'Cairo', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+font-family: 'Saira', sans-serif;
+color: #00d2d3;
+text-align: center;
+box-shadow: 7px 13px 37px #000;
+}
+
+#out{
+	font-size: 40px;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #c7ecee;
+	transition: 0.3s;
+}
+
+#out:hover{
+	font-size: 60px;
+	color: #c7ecee;
+}
+
+
+.controls{
+	background: none;
+	width: 100%;
+	border-color: #ecf0f1;
+	border-radius: 6px;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+}
+#register{
+	background: none;
+	height: 40px;
+    width: 150px;
+	border-color: #4b7bec;
+	border-radius: 13px;
+	color: white;
+	margin: 20px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+#register:hover{
+	background-color: #4b7bec;
+	width: 300px;
+	border: solid;
+	border-color: #4b7bec;
+}
+
+.form-register a{
+	color: white;
+	text-decoration: none;
+}
+
