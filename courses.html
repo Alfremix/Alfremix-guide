@@ -25,6 +25,7 @@
     <meta name="description" content="The best way to learn to program, And play videogames">
 </head>
 <body>
+  <audio id="classical-music" src="daily_download_20160204_128.mp3"></audio>
 
   <div class="header"> 
 
@@ -53,9 +54,10 @@
 
           <a id="go-register" href="Register.html">Register</a>
           <a id="go-signin" href="#">Sign in</a>
+          <button onclick="stopmusic()"id="music-on"><i class="fas fa-volume-up"></i>Sound on</button>
           </ul>
 
-          <button id="music-on"><i class="fas fa-volume-up"></i>Sound on</button>
+          <a id="perzonalisaze"></a>
 
         </div>
     <section id="container">
@@ -71,11 +73,19 @@
       <button onclick="setSection()" id="startlearning-btn"><style>
         @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=IBM+Plex+Sans:ital,wght@1,200&family=Zen+Kaku+Gothic+Antique:wght@900&display=swap');
         </style>!Start learning!</button>
+        <br>
+        <div class="link1">
+        <a href=""class="link">
+          <i class="fas fa-pencil-alt"></i>
+        </a>
+      </div>
     </section>
-    <section id="info-course">
-
-    </section>    
-
-
+    <section id="info-about-course">
+      <p id="H1">Intro</p>
+      <hr> 
+      <video id="intro-video" src="#" controls></video>
+      <br>
+      <button id="info">View description</button><i id="elips" class="fas fa-ellipsis-h"></i>
+    </section> 
 </body>
 </html>

@@ -6,12 +6,17 @@
 }
 
 
-body{
-  
-}
 
 html{
 	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #2c3e50;
+}
+
+* #info-about-course{
+	color: rgb(187, 255, 234);
 }
 
 #text1{
@@ -22,9 +27,16 @@ html{
 	color: rgb(255, 255, 255);
 }
 
+
+
+#steve{
+	height: 450px;
+	margin-left: 100px;
+}
+
 .header{
 	width: 100%;
-	background-color: #2c3e50;
+	background-color: #000000;
 	height: 80px;
 	position: fixed;
 }
@@ -32,17 +44,93 @@ html{
 .menu #go-register{
 	border-radius: 5px;
 	margin-left: 500px;
-	background-color: #34495e !important;
+	background-color: #252525 !important;
 	padding: 15px !important;
 	text-decoration: none;
 	color: rgb(227, 255, 219);
 }
 
 .menu #go-signin{
-background: linear-gradient(to right, #3bb129, #44bd32) ;
+background: linear-gradient(to right, #3bb129, #44bd32);
 padding: 15px !important;
 border-radius: 5px;
-margin: 0 20px;
+color: rgb(227, 255, 219);
+}
+.menu #music-on{
+	background: none;
+	color: yellow;
+	border: none;
+	margin-left: 14px;
+	cursor: pointer;
+}
+
+.menu #music-on i{
+	color: cyan !important;
+}
+
+
+#intro-video{
+	margin-top: 120px;
+	height: 400px;
+	padding-bottom: 0 10px;
+	border: 10px  #092202;
+	border-style: groove;
+}
+
+#info-about-course{
+	background-image: url(https://i.ibb.co/DbtqxR2/2021-11-14-07-42-23.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 750px;
+}
+
+#info{
+	color:#d8d8d8;
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 10px;
+	transition: 0.3s;
+	background: none;
+	border: none;
+}
+
+#info:hover{ 
+	color: #000000;
+}
+
+.link1{
+	width: 60px;
+	height: 60px;
+	background: #1bc704;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #cbffdc;
+	border-radius: 50%;
+	font-size: 20px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	box-shadow: 3px 5px 6px 3px rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.link1 i{
+	color: #cbffdc;
+}
+
+#elips{
+	color: whitesmoke;
+	font-size: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	visibility: hidden;
+	transition: 0.5s;
+}
+#H1{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;	
+	color:whitesmoke;
+	margin-bottom: 20px;
 }
 .menu a{
 	line-height: 60px;
@@ -53,7 +141,8 @@ margin: 0 20px;
 }
 
 .menu a:hover{
-	font-size: 25px;
+	font-size: 19px;
+	color: lime;
 }
 
 .menu #logo{
@@ -65,6 +154,7 @@ margin: 0 20px;
 }
 #startlearning-btn{
 	font-size: 22px;
+	border-radius: 7px;
 	font-weight: 300;
 	margin: 15px;
 	color: rgb(245, 245, 245);
@@ -80,9 +170,28 @@ margin: 0 20px;
 
 #startlearning-btn:hover{
 	background-color: rgb(50, 170, 26);
-	height: 85px;
-	width: 205px;
+	height: 90px;
+	width: 210px;
 	font-size: 22px;
+}
+
+#list-course{
+   color: rgb(209, 255, 209);
+   cursor: pointer;
+   font-size: 20px;
+   margin-top: 20px;
+   margin-right: 1280px !important;
+}	
+
+#list-course:hover{
+    color:rgb(48, 207, 34);
+}
+
+
+
+#list{
+	color: #cbffdc;
+	margin-right: 1280px;
 }
 
 #container{
